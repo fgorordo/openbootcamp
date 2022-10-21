@@ -2,7 +2,7 @@ package intro.oop.encapsulation_exercise;
 
 public class encap_exercise {
     public static void main(String[] args) {
-        Persona user1 = new Persona();
+        PersonaEncap user1 = new PersonaEncap();
 
         user1.setEdad(26);
         user1.setNombre("Fernando");
@@ -12,7 +12,7 @@ public class encap_exercise {
     }
 }
 
-class Persona {
+class PersonaEncap {
     private int edad;
     private String nombre;
     private String telefono;

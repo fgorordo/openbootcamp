@@ -1,7 +1,7 @@
 package intro.oop;
 
 public class oop_private_abstraction_encap {
-    public static void main(String[]args) {
+    public static void main(String[] args) {
         Vehiculo vehiculo = new Vehiculo();
         
         vehiculo.setType("Deportivo");
@@ -43,7 +43,6 @@ class Vehiculo {
 abstract class VehiculoAbs {
     private String tipo;
     private int velocidadMaxima;
-    private String sonido;
 
     abstract public String getSonido();
     abstract public void setSonido(String sonido);

@@ -20,3 +20,11 @@ En otras palabras lo que hacemos es crear dos funciones que nos permitan modific
 Por otro lado la abstracción permite crear funciones que solo pueden ser invocadas por funciones hijas lo cual abstrae completamente la funcionalidad del entorno. Son funciones parcialmente construidas donde se indican el tipo de dato que operar y nombre de dicha función.
 
 Las clases abstractas no pueden ser utilizadas, solo pueden ser heredadas.
+
+# Herencia polimorfismo e interfaces
+En la herencia, valga la redundancia, heredamos métodos y/o propiedades de una clase padre. Tambien se heredan métodos abastractos que debemos construir la lógica del negocio.
+
+En el polimorfismo las clases hijas implementan la misma función pero realizan diferentes cosas
+
+Las interfaces no implementan ninguna función, sino que nos dice a nosotros que debemos implementar.
+
